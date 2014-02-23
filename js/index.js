@@ -6,7 +6,7 @@ function CargarIMG()
 
 	//$('#bg').attr("src", "images/f"+v_random+".jpg");
 
-	$('body').css('background-image','url(images/f'+v_random+'.png)');
+	//$('body').css('background-image','url(images/f'+v_random+'.png)');
 
 
 	$.ajax({

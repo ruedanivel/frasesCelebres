@@ -14,87 +14,24 @@ html {
 
 body {
 
-	font-family: 'Averia Sans Libre', cursive;
-	font-size: 20px;
-
-    height:100%;
-    width:100%;
-	position: fixed;
-
-	background-image: url("../images/f1.png");
-
-	transition: background 0.8s linear;
-    -moz-transition: background 0.8s linear; /* Firefox 4 */
-    -webkit-transition: background 0.8s linear; /* Safari and Chrome */
-    -o-transition: background 0.8s linear; /* Opera */
 
 }
 
-#bg {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+body > img {
+
+	position: absolute;
+	top: 15%;
+	left: 0;
+	z-index: -1;
+
 }
+
+#nav img{ width: 60px; height: auto;}
 
 #nav {
-	position:absolute;
-
+	background: rgb(104, 185, 159);
 	width: 100%;
-	text-align: center;
-	padding: 5px;
-	background:#A21F0F;
-
+	position: absolute;
+	bottom: 0px;
 }
-
-#nav img:active {
-
-	border-radius: 50%;
-
-}
-
-#cuerpo {
-
-	position: relative;
-	top: 90px;
-	left: 0;
-	width: 100%;
-	text-align: center;
-
-	background:rgba(255, 255, 255, 0.72);
-
-}
-
-#text {
-
-	font-size: 25px;
-
-	padding: 5px;
-
-}
-
-
-
-button {
-
-	font-family: 'Averia Sans Libre', cursive;
-
-	padding: 5px;
-	font-size: 20px;
-	color:#232323;
-	margin: 0 0 5px 0;
-	border-radius: 10px;
-
-	background: #ddd;
-
-}
-
-button:active  {
-
-	background: #dd4b39;
-	color:#fff;
-
-}
-
