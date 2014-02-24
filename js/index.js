@@ -11,7 +11,7 @@ function CargarIMG()
 	//$('body').css('background-image','url(images/f'+v_random+'.png)');
 
 	$.ajax({
-		url:'http://musicamaestra.com/programin/app/frasesamor/php.php',
+		url:'http://musicamaestra.com/programin/app/frasescelebres/php.php',
 		type:'post',
 		success:  function (response) {
 			
