@@ -4,7 +4,7 @@
     id        = "com.frasescelebres"
     version   = "1.0.0">
 
-<icon src="images/icon.jpg" />
+<icon src="images/icon.png" />
 
 <name>Frases celebres</name>
 
